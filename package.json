@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "config": "^3.3.12",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.13.5",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "start": "node --watch ./src/bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
