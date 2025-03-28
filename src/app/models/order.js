@@ -11,6 +11,10 @@ const orderSchema = new mongoose.Schema({
         type: Number,
         required: true,
     },
+    status: {   // shipping, delivered, cancelled
+        type: String,
+        default: "shipping",
+    },
     items:
         [{
             prd_id: {

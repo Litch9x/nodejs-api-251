@@ -1,17 +1,20 @@
 {
   "dependencies": {
     "config": "^3.3.12",
+    "cookie": "^1.0.2",
+    "cookie-parser": "^1.4.7",
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
     "lodash": "^4.17.21",
     "mongoose": "^6.13.5",
     "nodemailer": "^6.10.0",
-    "nodemon": "^3.1.9"
+    "parser": "^0.1.4",
+    "redis": "^4.7.0"
   },
   "scripts": {
-    "start": "node --watch ./src/bin/www.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --watch --watch-path=src src/bin/www.js"
   }
 }
